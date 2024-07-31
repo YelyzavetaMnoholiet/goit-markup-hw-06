@@ -24,7 +24,7 @@
   </head>
 
   <body>
-    <!-- <header class="header">
+    <header class="header">
       <div class="container header-container">
         <nav class="header-nav">
           <a href="./index.html" class="logo-web"
@@ -54,8 +54,89 @@
             </li>
           </ul>
         </address>
+        <div class="mob-menu-open">
+          <button type="button" class="mob-open-btn">
+            <svg class="mob-open-icon" width="17" height="14">
+              <use href="./images/icons.svg#icon-group-1"></use>
+            </svg>
+          </button>
+        </div>
+
+        <div class="mob-menu">
+          <div class="mob-menu-top">
+            <button type="button" class="menu-exit-btn">
+              <svg class="menu-exit-icon" width="8" height="8">
+                <use href="./images/icons.svg#icon-close"></use>
+              </svg>
+            </button>
+            <nav>
+              <ul class="mob-menu-list">
+                <li class="mob-menu-item">
+                  <a href="./index.html" class="mob-menu-link mob-current"
+                    >Studio</a
+                  >
+                </li>
+                <li class="mob-menu-item">
+                  <a href="" class="mob-menu-link">Portfolio</a>
+                </li>
+                <li class="mob-menu-item">
+                  <a href="" class="mob-menu-link">Contacts</a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+
+          <div class="mob-menu-bottom">
+            <address class="mob-address">
+              <ul class="mob-contacts-list">
+                <li class="mob-contacts">
+                  <a
+                    href="tel:+110001111111"
+                    class="mob-contacts-info contacts-current"
+                    >+11 (000) 111-11-11</a
+                  ><br />
+                </li>
+                <li class="mob-contacts">
+                  <a href="mailto:info@devstudio.com" class="mob-contacts-info"
+                    >info@devstudio.com</a
+                  ><br />
+                </li>
+              </ul>
+            </address>
+            <ul class="mob-icon-link-list">
+              <li class="mob-item-icon">
+                <a class="mob-icon-link" href="">
+                  <svg class="mob-soc-icon" width="24" height="24">
+                    <use href="./images/icons.svg#icon-instagram-2-1"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="mob-item-icon">
+                <a class="mob-icon-link" href="">
+                  <svg class="mob-soc-icon" width="24" height="24">
+                    <use href="./images/icons.svg#icon-twitter-1-1"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="mob-item-icon">
+                <a class="mob-icon-link" href="">
+                  <svg class="mob-soc-icon" width="24" height="24">
+                    <use href="./images/icons.svg#icon-facebook-1-1"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="mob-item-icon">
+                <a class="mob-icon-link" href="">
+                  <svg class="team-soc-icon" width="24" height="24">
+                    <use href="./images/icons.svg#icon-linkedin-1-1"></use>
+                  </svg>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
       </div>
-    </header> -->
+    </header>
 
     <main>
       <section class="section-title">
@@ -129,6 +210,7 @@
           <ul class="team">
             <li class="team-inform">
               <img
+                srcset="./images/img1.jpg 1x, ./images/img1-2x 2x"
                 src="./images/img1.jpg"
                 alt="foto_mark_guerrero"
                 width="264"
@@ -172,6 +254,7 @@
             </li>
             <li class="team-inform">
               <img
+                srcset="./images/img.jpg 1x, ./images/img-2x 2x"
                 src="./images/img.jpg"
                 alt="foto_tom_ford"
                 width="264"
@@ -215,6 +298,7 @@
             </li>
             <li class="team-inform">
               <img
+                srcset="./images/img3.jpg 1x, ./images/img3-2x 2x"
                 src="./images/img3.jpg"
                 alt="foto_camila_garcia"
                 width="264"
@@ -258,6 +342,7 @@
             </li>
             <li class="team-inform">
               <img
+                srcset="./images/img4.jpg 1x, ./images/img4-2x 2x"
                 src="./images/img4.jpg"
                 alt="foto_daniel_wilson"
                 width="264"
@@ -311,6 +396,7 @@
             <li class="cards">
               <div class="thumb">
                 <img
+                  srcset="./images/img-1-1-min.jpg, ./images/img-1-1-2x 2x"
                   src="./images/img-1-1-min.jpg"
                   alt="banking app"
                   width="360"
@@ -331,6 +417,7 @@
             <li class="cards">
               <div class="thumb">
                 <img
+                  srcset="./images/img-1-2-min.jpg, ./images/img-1-2-2x 2x"
                   src="./images/img-1-2-min.jpg"
                   alt="cashless payment"
                   width="360"
@@ -351,6 +438,7 @@
             <li class="cards">
               <div class="thumb">
                 <img
+                  srcset="./images/img-1-3-min.jpg, ./images/img-1-3-2x 2x"
                   src="./images/img-1-3-min.jpg"
                   alt="meditation app"
                   width="360"
@@ -371,6 +459,7 @@
             <li class="cards">
               <div class="thumb">
                 <img
+                  srcset="./images/img-1-4-min.jpg, ./images/img-1-4-2x 2x"
                   src="./images/img-1-4-min.jpg"
                   alt="taxi service"
                   width="360"
@@ -391,6 +480,7 @@
             <li class="cards">
               <div class="thumb">
                 <img
+                  srcset="./images/img-1-5-min.jpg, ./images/img-1-5-2x 2x"
                   src="./images/img-1-5-min.jpg"
                   alt="screen illustrations"
                   width="360"
@@ -411,6 +501,7 @@
             <li class="cards">
               <div class="thumb">
                 <img
+                  srcset="./images/img-1-6-min.jpg, ./images/img-1-6-2x 2x"
                   src="./images/img-1-6-min.jpg"
                   alt="online courses"
                   width="360"
@@ -432,7 +523,7 @@
       </section>
     </main>
 
-    <!-- <footer class="footer">
+    <footer class="footer">
       <div class="container footer-container">
         <div class="footer-logo-text">
           <a href="./index.html" class="footer-logo-web"
@@ -500,9 +591,9 @@
           <div class="footer-block-btn"></div>
         </div>
       </div>
-    </footer> -->
+    </footer>
 
-    <!-- <div class="modal-overlay">
+    <div class="modal-overlay">
       <div class="modal">
         <button type="button" class="exit-btn">
           <svg class="form-exit" width="8" height="8">
@@ -579,15 +670,17 @@
                   <use href="./images/icons.svg#icon-vector"></use>
                 </svg>
               </span>
-              I accept the terms and conditions of the
+              <span class="span-accept">
+                I accept the terms and conditions of the
 
-              <a href="" class="checkbox-link">Privacy Policy</a>
+                <a href="" class="checkbox-link">Privacy Policy</a>
+              </span>
             </label>
           </div>
 
           <button type="button" class="modal-btn">Send</button>
         </form>
       </div>
-    </div> -->
+    </div>
   </body>
 </html>
