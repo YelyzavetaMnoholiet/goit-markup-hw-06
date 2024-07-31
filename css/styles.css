@@ -123,7 +123,7 @@ img {
   display: none;
 }
 
-.is-open {
+.menu-is-open {
   display: flex;
 }
 
@@ -1159,6 +1159,20 @@ input:checked + label > span .icon-accept {
     width: 1128px;
     padding-left: 15px;
     padding-right: 15px;
+  }
+
+  .header {
+    padding-top: 24px;
+    padding-bottom: 22px;
+  }
+
+  .menu-list {
+    display: flex;
+  }
+
+  .contacts-list {
+    flex-direction: row;
+    gap: 40px;
   }
 
   .section-title {
